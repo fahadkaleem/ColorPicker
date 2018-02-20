@@ -9,4 +9,4 @@ Color Picker uses the ![Croller](https://github.com/harjot-oberai/Croller) Libra
 ![Demo](https://github.com/fahadkaleem/ColorPicker/blob/master/Screenshots/ColorPicker.gif)
 
 # License
-<b>Croller</b> is licensed under `MIT license`. View [license](LICENSE.md).
+<b>Croller</b> is licensed under `MIT license`. View [license](LICENSE).
