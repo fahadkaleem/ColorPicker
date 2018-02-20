@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Color Picker</string>
+    <string name="white">#FFFFFF</string>
+    <string name="red_label">Red</string>
+    <string name="green_label">Green</string>
+    <string name="blue_label">Blue</string>
+
+    <string name="default_color_value">255</string>
 </resources>

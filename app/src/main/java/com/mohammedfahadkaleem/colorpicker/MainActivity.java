@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
     private static boolean blue_touched = false;
     private static String color;
     private ClipboardManager myClipboard;
-    private ClipData clipData;
     @BindView(R.id.tv_color) TextView tv_color;
     @BindView(R.id.tv_red) TextView tv_red;
     @BindView(R.id.tv_green) TextView tv_green;
@@ -119,7 +118,7 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
     @Override
     public boolean onLongClick(View view) {
         if (view == color_view) {
-            clipData = ClipData.newPlainText("color", color);
+            ClipData clipData = ClipData.newPlainText("color", color);
             myClipboard.setPrimaryClip(clipData);
             new Toast(this).makeText(this, "Copied to Clipboard", Toast.LENGTH_SHORT).show();
         }
